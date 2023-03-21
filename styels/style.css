@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
  }
  .player-info{
-    background-image:linear-gradient(orange,yellow) ;
+    background-image:linear-gradient(red,yellow) ;
     width: 80vw;
     height: 663px;
     border-radius: 50px;
@@ -50,6 +50,7 @@
  /*-------------------
   blogs styles
   ------------------ */
+
   .angcor  a{
     text-decoration: none;
     color: #161616;
@@ -60,16 +61,25 @@
     margin-left: 30px;
     padding: 30px 30px 3px 22px;
     max-width: 238px;
+    height: 276px;
     border-radius: 10px;
+    margin-right: 24px;
   }
   .angcor-1{
     padding: 17px;
     margin-bottom: 20px;
   }
+  .angcor-1:hover{
+   background-color: gold;
+   color: #FFFFFF;
+  }
+  .angcor a:hover{
+   color: #FFFFFF;
+  } 
   .top-Match{
     display: flex;
     justify-content: center;
-    background-color: yellowgreen;
+    background-color: rgba(210, 105, 30, 0.627);
     width: 210px;
     height: 35px;
     border-radius: 10px;
@@ -77,7 +87,7 @@
   .top-Group{
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: rgba(210, 105, 30, 0.627); 
     width: 210px;
     height: 35px;
     border-radius: 10px;
@@ -85,8 +95,136 @@
   .top-Blog{
     display: flex;
     justify-content: center;
-    background-color:chocolate;
+    background-color: rgba(210, 105, 30, 0.627);
     width: 210px;
     height: 35px;
     border-radius: 10px; 
   }
+  /*-------------------
+   blog
+   ------------------ */
+   .top-blogs{
+      display: flex;
+      justify-content: center;
+   }
+   .blogs{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-bottom: 60px;
+   }
+   .blog{
+      border: 1px solid #E8E8E8;
+      width: 272px;
+      height: 312px;
+      border-radius: 10px;
+      margin-right: 24px;
+      margin-bottom: 24px;
+   }
+   .blog img{
+      width: 272px;
+      height: 169px;
+  }
+.blog p{
+   display: flex;
+   justify-content: center;
+   font-size: 16px;
+   border: 1px solid gray;
+   width: 85px;
+   border-radius: 5px;
+   position: relative;
+   left: 10px;
+   margin-top: 10px;
+}
+.blog h5{
+   position: relative;
+   left: 10px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.blog-info{
+   display: flex;
+   position: relative;
+   left: 10px;
+   margin-top: 16px;
+}
+.blog-info img{
+  width: 20px;
+  height: 16px;
+}
+   .blog-info span{
+      font-size: 10px;
+      margin-left: 8px;
+   }
+   .thamble{
+      margin-left: 25px;
+   }
+   /*-------------------
+    footer styles
+    ----------------- */
+    .top-footer{
+      display: grid;
+      justify-items: center;
+      background-image: linear-gradient(yellow,red);
+      padding: 100px;
+      border-radius: 10px;
+    }
+    .goal-top{
+      margin-top: -9px;
+      color: #E8E8E8;
+    }
+    hr{
+      width: 80%;
+      color: #B9B9B9;
+      margin-bottom: 40px;
+    }
+    .footer-a a{
+      text-decoration: none;
+      color: #B9B9B9;
+      margin-right: 25px;
+    }
+    /*-------------------
+     vlogs style
+     ------------------ */
+     .top-vlogs{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 100%;
+      margin-right: 540px;
+      position: relative;
+      left: 285px;
+     }
+     .vlogs{
+      border: 1px solid #E8E8E8;
+      Width:275px;
+      height: 182px;
+      padding: 24px 13px 4px 8px;
+      border-radius: 10px ;
+      margin-top: 30px;
+     }
+     .vlog{
+      display: flex;
+   
+  }
+  .vlog img{
+      width: 93px;
+      height: 56px;
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+  .vlog h3{
+      margin-left: 10px;
+
+  }
+  .vlog-detail{
+      margin-left: 35px;
+      margin-top: -8px;
+  }
+  .vlog-detail h4{
+   font-size: 20px;
+  }
+  .vlog-detail p{
+      font-size: 13px;
+      margin-top: -16px;
+      margin-left: 30px;
+  }
+
